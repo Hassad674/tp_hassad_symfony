@@ -3,3 +3,15 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+# Création d'une route login_check 
+
+login:
+    path: /login
+    controller: App\Controller\SecurityController::login
+
+login_check:
+    path: /login_check
+
+
+    
